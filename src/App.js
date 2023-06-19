@@ -5,9 +5,7 @@ function App() {
       <div className="App">
         <DashBoard />
       </div>
-
   );
 }
-
 
 export default App;

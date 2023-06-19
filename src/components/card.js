@@ -18,10 +18,10 @@ const sta = (value) =>{
 }
 
 const Card = (props) => {
-    const {id,state,status,title,text,avatar,comments,files,img} = props.data;
+    const {id,status,title,text,avatar,comments,files,img} = props.data;
 
     return (
-        <Draggable draggableId={state} index={id}>
+        <Draggable draggableId={id.toString()} index={id}>
             {(provided)=>(
                 <div className='view-card' {...provided.draggableProps}    {...provided.dragHandleProps}    ref={provided.innerRef}>
                     <div className='view-head-card'>

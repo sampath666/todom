@@ -4,14 +4,14 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAngleDown  } from '@fortawesome/free-solid-svg-icons'
 import { CiGrid41, CiCalendar } from 'react-icons/ci';
 import { TbMessageDots } from 'react-icons/tb';
-import { FiUsers ,FiLink2, FiFilter, FiFolderMinus} from 'react-icons/fi';
+import { FiUsers ,FiLink2, FiFilter} from 'react-icons/fi';
 import { GrTask } from 'react-icons/gr';
 import { AiOutlineSetting, AiOutlinePlus } from 'react-icons/ai';
 import { CgAddR } from 'react-icons/cg';
 import {BsCircleFill, BsPencilSquare, BsUiRadiosGrid} from 'react-icons/bs';
 import {HiPlus} from 'react-icons/hi';
 import { FaGripLines} from 'react-icons/fa';
-import { DragDropContext, DropResult, Droppable  } from "react-beautiful-dnd";
+import { DragDropContext, Droppable  } from "react-beautiful-dnd";
 
 
 import Navbar from './Navbar'
